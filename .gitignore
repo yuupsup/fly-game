@@ -1,0 +1,13 @@
+/.cache
+/dist
+/node_modules
+/package.json
+/package-lock.json
+/.DS_Store
+/public
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+/.idea
