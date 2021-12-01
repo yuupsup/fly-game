@@ -211,6 +211,7 @@ export default class LevelManager {
         displayX: d.displayX,
         displayY: d.displayY,
         radius: d.radius || d.width * 0.5,
+        dir: d.dir || 1,
         texture: 'player'
       });
       GameController.instance(this.scene).getCameraManager(this.scene).setTargetFollow(this.player);

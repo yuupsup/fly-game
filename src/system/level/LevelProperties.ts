@@ -11,6 +11,12 @@ export const LevelProperties = {
       level: 'level2',
       width: 480,
       height: 240
+    },
+    { // 3
+      map: 'map3',
+      level: 'level3',
+      width: 240,
+      height: 480
     }
   ],
   getMapForLevel: function(level:number) {

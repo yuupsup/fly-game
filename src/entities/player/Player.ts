@@ -88,7 +88,7 @@ export default class Player extends Fly {
 
     this.spd = 0;
     this.spdMax = 80;
-    this.dir = 1;
+    this.dir = config.dir || 1;
 
     this.testLine = new Phaser.Geom.Line();
     // this.length = 48;
